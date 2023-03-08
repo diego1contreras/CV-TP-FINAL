@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background: url("../Imagenes/fondo1.jpg");
+    background-size: 100%;
+    font-size: 18px;
+}
+
+div{
+    border: solid 1px black;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+
+}
+
+fieldset{
+    margin-bottom: 10px;
+}
+
+fieldset ul{
+    list-style-type:none;
+}
+
+#redes, #idiomas, #experiencia{
+    text-align: center;
+
+}
+
+legend{
+    border: solid 1px #fff;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 20px;
+    text-align: center;
+    background-color:  rgba(0,0,0,0.9);
+    color: #fff;
+}
+
+#foto{
+    margin: 5px;
+    border: solid 4px black;
+}
+
+img{
+    float: left;
+}
+
+#nombre{
+    font-size: 50px;
+    text-align: left;
+}
+
+header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+#barra {
+    float: left;
+}
+
+#barra ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+#barra ul li{
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+#barra ul li a{
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#barra li a:hover{
+    background-color: #333333;
+}
+
+#principal{
+    padding-top: 60px;
+}
+
+fieldset[id]{
+    scroll-margin-top: 60px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    padding: 20px;
+    font-family: 'Sen', sans-serif;
+    font-weight: 100;
+}
+
+.form {
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    order: 5;
+}
+
+.form_section{
+    border: none;
+}
+
+.form_input {
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0;
+    border: none;
+    border-bottom: 3px solid rgba(0,0,0,0.9);
+    background: transparent;
+}
+
+.form textarea{
+    min-height: 140px;
+    resize: none;
+    font-family: 'Sen', sans-serif;
+    font-weight: 100;
+}
+
+.form input[type="submit"]{
+    background-color: rgba(0,0,0,0.9);
+    border-bottom: none;
+    padding: 12px;
+    color: #fff;
+} 
+
+.form input[type="submit"]:hover{
+    background-color: rgba(0,0,0,0.8);
+    border-bottom: none;
+    padding: 12px;
+} 
+
+.form input[type="submit"]:focus{
+    background: rgba(0,0,0,0.9);
+} 
+
+.form input[type="submit"]:active{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.6));
+} 
+
+footer{
+    font-size: 12px; 
+    text-align: center;
+    padding: 10px;
+}
